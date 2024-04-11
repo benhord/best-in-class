@@ -8,8 +8,8 @@ def targetsWithPublishedConfirmation( forceDownload=False ):
     Confirmed Planets from NASA Exoplanet Archive.    
 
     """
-    date = str(datetime.date(datetime.now()))
-    ##date = '2022-11-03'
+    ##date = str(datetime.date(datetime.now()))
+    date = '2022-11-03'
     path = 'PS_'+date+'.csv'
     confirmedFpath = path
     if not forceDownload:
@@ -56,8 +56,8 @@ def targetsConfirmedTESS( forceDownload=False ):
     
     """
     
-    date = str(datetime.date(datetime.now()))
-    ##date = '2022-11-03'
+    ##date = str(datetime.date(datetime.now()))
+    date = '2022-11-03'
     path = 'PS_TESS_'+date+'.csv'
     confirmedFpath = path
     if not forceDownload:
@@ -89,8 +89,8 @@ def targetsUnpublishedTOIs( csvIpath='TOI_YYYY-MM-DD.csv', forceDownload=False )
     TESS Project Candidates from NASA Exoplanet Archive.
     
     """
-    date = str(datetime.date(datetime.now()))
-    ##date = '2022-11-03'
+    ##date = str(datetime.date(datetime.now()))
+    date = '2022-11-03'
     path = 'TOI_'+date+'.csv'
     toiFpath = path
     if not forceDownload:
@@ -124,8 +124,8 @@ def ExoFOP( forceDownload=False ):
     """
     Download TFOP information. 
     """
-    date = str(datetime.date(datetime.now()))
-    ##date = '2022-11-03'
+    ##date = str(datetime.date(datetime.now()))
+    date = '2022-11-03'
     path = 'ExoFOP_'+date+'.csv'
     toiFpath = path
     if not forceDownload:
